@@ -97,4 +97,6 @@ dependencies {
         all*.exclude group: 'io.reactivex.rxjava2:rxjava'
         all*.exclude group: 'io.reactivex.rxjava2:rxandroid'
     }
+
+    annotationProcessor deps.room.compiler
 }

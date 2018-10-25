@@ -152,6 +152,8 @@
     build_versions.build_tools = "26.0.2"
     ext.build_versions = build_versions
 
+    def trunk = [:]
+
 
     def addRepos(RepositoryHandler handler) {
 
