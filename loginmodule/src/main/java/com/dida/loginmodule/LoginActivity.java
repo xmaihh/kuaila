@@ -36,7 +36,6 @@ public class LoginActivity extends AppCompatActivity {
 
         autoCompleteTextView = findViewById(R.id.autoCompleteTextView);
         autoCompleteTextView.setAdapter(new MyActAdapter(this));
-//        setThreshold(1);
         autoCompleteTextView.setThreshold(1);
     }
 

@@ -23,8 +23,8 @@ public interface RecipeDaoAccess {
     Recipe fetchOneRecipebyRecipeId(int recipeId);
 
     @Update
-    void updateRecipe(Recipe movies);
+    void updateRecipe(Recipe recipe);
 
     @Delete
-    void deleteRecipe(Recipe movies);
+    void deleteRecipe(Recipe recipe);
 }
